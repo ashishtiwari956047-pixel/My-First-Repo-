@@ -1,0 +1,16 @@
+// Code for swape two numbers without using 3rd variable
+
+#include<stdio.h>
+int main()
+{
+	int a=30;
+	int b=45;
+	int temp;
+	printf("Before swap a=%d and b=%d\n",a,b);
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	printf("After swap a=%d and b=%d\n",a,b);
+	
+	return 0;
+}
